@@ -29,3 +29,21 @@ A PDF elérhető a Step1 mappában.
 * Az egyéni bevallások eltérő adattartalom miatt különböző hoszúságúak (lehet 9 de akár 16 oldalas is)
 * 214 egyéni bevallás található a PDF-ben
 * A válaszok kék szinnel vannak általában megkülönböztetve, kivéve amikor nem
+
+# PDF lebontása egyéni PDF-ekre
+
+## Eszközök
+
+* Python
+* Regex
+
+## Output
+
+* A felhasznált python script megtalálható a Step2 mappában
+* A lebontott PDF-ek megtalálhatóak a Step2 mappában
+
+## Jegyzetek
+
+* Van olyan személy, aki ismétlődik (több bevallása is megtalálható a 214 között)
+* A képviselő nevek nincsenek normalizálva nagy- és kisbetű szempontjából
+* A cimek (pl Doktor) nincsenek egységesitve, pl "Dr." és "Dr" is előfordul
